@@ -531,4 +531,4 @@ def drawFeatures(imagename, keypoints, filename):
         # newimg = cv2.arrowedLine(newimg, (int(keypoints[i,1]), int(keypoints[i,0])), (int(keypoints[i,1]+r*keypoints[i,4]*np.sin(np.pi/18*keypoints[i,3])), int(keypoints[i,0] +r*keypoints[i,4]*np.cos(np.pi/18*keypoints[i,3]))), (255,255,255), tipLength=0.2)
     cv2.imwrite(filename, newimg)
 
-match_template1("data/quaker_s1.jpg","data/quaker_s2.jpg" , 5)
+match_template1("data/indiagater5.jpg","data/indiagate.jpg" , 5)
